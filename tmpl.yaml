@@ -1,4 +1,2 @@
-# This is an example of tmpl.yaml
-
-# variables:
-#	 project_name: My Project
+variables:
+	 project_name: Project Name
