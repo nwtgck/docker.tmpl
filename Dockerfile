@@ -1,3 +1,3 @@
-FROM {{base_image}}
+FROM {{.base_image}}
 
-LABEL maintainer="{{$git_user_name}} <{{$git_user_email}}>"
+LABEL maintainer="{{.Git.user.name}} <{{.Git.user.email}}>"
